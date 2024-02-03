@@ -1,0 +1,44 @@
+<!--This can be displayed all devices except medium and small mobile devices cannot be displayed.-->
+<div class="block Medium_Mobiles_Size_View:hidden Small_Mobiles_Size_View:hidden">
+  <div class="flex justify-center items-center h-screen w-full overflow-x-hidden overflow-y-auto bg-[#F5E7DA]">
+    <div class="flex justify-center items-center h-auto w-full">
+      <div class="flex flex-col justify-center items-center h-auto w-[323px] rounded-[10px] bg-[#FFFFFF] font-Mulish">
+        <app-image-component></app-image-component>
+        <app-topic></app-topic>
+        <app-heading></app-heading>
+        <app-paragraph></app-paragraph>
+        <app-avatar></app-avatar>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--This can be displayed only on medium mobile devices.-->
+<div class="hidden Medium_Mobiles_Size_View:block Small_Mobiles_Size_View:hidden">
+  <div class="flex justify-center items-center h-screen w-full overflow-x-hidden overflow-y-auto bg-[#F5E7DA]">
+    <div class="flex justify-center items-center h-auto w-full">
+      <div class="flex flex-col justify-center items-center h-auto w-64 rounded-[10px] bg-[#FFFFFF] font-Mulish">
+        <app-image-component></app-image-component>
+        <app-topic></app-topic>
+        <app-heading></app-heading>
+        <app-paragraph></app-paragraph>
+        <app-avatar></app-avatar>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--This can be displayed only on small mobile devices.-->
+<div class="hidden Medium_Mobiles_Size_View:hidden Small_Mobiles_Size_View:block">
+  <div class="flex justify-center items-center h-screen w-full overflow-x-hidden overflow-y-auto bg-[#F5E7DA]">
+    <div class="flex justify-center items-center h-auto w-full">
+      <div class="flex flex-col justify-center items-center h-auto w-52 rounded-[10px] bg-[#FFFFFF] font-Mulish">
+        <app-image-component></app-image-component>
+        <app-topic></app-topic>
+        <app-heading></app-heading>
+        <app-paragraph></app-paragraph>
+        <app-avatar></app-avatar>
+      </div>
+    </div>
+  </div>
+</div>
